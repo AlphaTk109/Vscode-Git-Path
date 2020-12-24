@@ -28,8 +28,4 @@ void QuickSort_Circle(type left,type right,type array[])
 	QuickSort_Circle<type>(left, i - 1, array);	//�ݹ����
 	QuickSort_Circle<type>(i + 1, right, array);//�ݹ��Ҳ�
 }
-
-
-
-
 #endif

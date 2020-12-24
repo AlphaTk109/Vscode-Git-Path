@@ -1,14 +1,16 @@
 #include<iostream>
-#include<vector>
+#include"2_QuickSort.h"
 using namespace std;
 int main() {
-    //test
-    int t;
-    cin>>t;
-    vector<int> myi;
-    for(int i=0;i<t;i++)
-        myi.push_back(i);
-    for(int i=0;i<t;i++)
-        cout<<myi[i];
-    return 0;
+    int t=6;
+    int a[6];
+    for(int i=0;i<t;i++) 
+    {
+        cin>>a[i];
+    }
+    QuickSort(a,6);
+    for(int i=0;i<t;i++) 
+    {
+        cout<<a[i];
+    }
 }
